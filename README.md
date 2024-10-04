@@ -5,3 +5,6 @@
 npm create vite@latest frontend -- --template react
 ```
 
+```shell
+pip install Flask flask-cors Flask-Alchemy
+```
