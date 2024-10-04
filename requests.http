@@ -1,0 +1,10 @@
+### /create_contact
+POST http://127.0.0.1:5000/create_contact
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": ""
+}
+
+###
