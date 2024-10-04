@@ -3,8 +3,15 @@ POST http://127.0.0.1:5000/create_contact
 Content-Type: application/json
 
 {
-  "name": "John Doe",
-  "email": ""
+  "first_name": "John",
+  "last_name": "Doe",
+  "email": "jdoe@gmail.com"
 }
 
-###
+### /update_contact
+PUT http://127.0.0.1:5000/update_contact/1
+Content-Type: application/json
+
+{
+  "first_name": "Johnson"
+}
