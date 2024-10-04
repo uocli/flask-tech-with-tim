@@ -7,7 +7,7 @@ from models import Contact
 def get_contacts():
     contacts = Contact.query.all()
     json_contacts = list(map(lambda contact: contact.to_json(), contacts))
-    return json_contacts
+    return jsonify({"contacts": json_contacts})
 
 
 if __name__ == "__main__":
